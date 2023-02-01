@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Title from "./components/Title";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import CartPage from "./cartPage";
+import CartPage from "./CartPage";
 function App() {
   return (
     <>
