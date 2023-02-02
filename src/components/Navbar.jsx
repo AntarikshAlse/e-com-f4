@@ -6,13 +6,21 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 p-3">
       <div className="flex-1">
-        <a className="text-white no-underline font-medium normal-case text-xl">
+        <Link
+          data-tip="Home"
+          className="link tooltip tooltip-bottom tooltip-info text-white no-underline"
+          to="/"
+        >
           E-Commerce
-        </a>
+        </Link>
       </div>
       <div className="navbar-end">
         <div className="indicator ">
-          <Link className="ml-2 link text-white no-underline" to="/cart">
+          <Link
+            data-tip="Cart"
+            className="ml-2 link tooltip tooltip-bottom tooltip-info text-white no-underline"
+            to="/cart"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -33,7 +41,11 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="mx-2 indicator">
-          <Link className="link text-white no-underline" to="/">
+          <Link
+            data-tip="Home"
+            className="link tooltip tooltip-bottom tooltip-info text-white no-underline"
+            to="/"
+          >
             <svg
               fill="#fff"
               id="Capa_1"
