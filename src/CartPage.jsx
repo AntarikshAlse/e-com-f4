@@ -18,7 +18,7 @@ const CartPage = () => {
     <>
       <Title title={"My Cart"} />
       <div className="flex w-full flex-wrap mt-4 p-3">
-        <div className="flex flex-wrap px-3 w-3/4 bg-white text-black justify-between">
+        <div className="flex flex-wrap px-3 w-3/4 bg-white text-black">
           {items &&
             items.map((product) => (
               <ProductCard

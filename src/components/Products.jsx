@@ -24,8 +24,8 @@ const Products = () => {
   return (
     <>
       <Title title={"Products"} />
-      <div className="w-full mt-4 p-3">
-        <div className="flex flex-wrap px-3 w-full bg-white text-black justify-between">
+      <div className="w-11/12 mt-4 p-3">
+        <div className="flex flex-wrap px-3 w-full bg-white text-black">
           {products.length > 0 &&
             products.map((product) => (
               <ProductCard

@@ -8,9 +8,9 @@ const ProductCard = ({ src, title, price, id, fromCart }) => {
     else dispatch(add({ price, id, title, src }));
   };
   return (
-    <div className="card border  pb-0 px-0 my-3 ">
+    <div className="card border w-72 m-4">
       <figure>
-        <img src={src} className="w-72 h-48 object-cover" alt="Product" />
+        <img src={src} className="h-48 object-cover" alt="Product" />
       </figure>
       <div className="card-body px-2">
         <span>Title : {title}</span>
